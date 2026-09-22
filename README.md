@@ -28,6 +28,14 @@ A small Windows application for safely inspecting X4: Foundations save files for
 
 The original file remains unchanged.
 
+### Modified saves
+
+X4: Foundations will recognize the resulting save as a **modified save** because the XML data has been changed.
+
+The tool does not add or set a "modified" flag itself. X4 detects the modification when the save is loaded.
+
+Keep the original save file if you want to retain an unmodified copy.
+
 ## Requirements
 
 - Windows 10 or Windows 11
